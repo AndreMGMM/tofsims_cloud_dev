@@ -1,0 +1,4902 @@
+[
+  {
+    "file": "python_data/0S0BM0C/0S0BM0C.npz",
+    "bytes": 718286415,
+    "spatial_shape": [
+      576,
+      448
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          258049
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          235409765
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          235409765
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/0S0BM0C/0S0BM0C_100960228.npz",
+    "bytes": 4474,
+    "spatial_shape": null,
+    "arrays": {
+      "src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "working_src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "dst_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "base_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_flipped_h": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_rows": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_cols": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "tofsims_sample_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U1"
+      },
+      "base_image_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U23"
+      }
+    }
+  },
+  {
+    "file": "python_data/0S0BM0D/0S0BM0D.npz",
+    "bytes": 898501406,
+    "spatial_shape": [
+      576,
+      448
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          258049
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          297931579
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          297931579
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/0S0BM0D/0S0BM0D_100960092.npz",
+    "bytes": 4474,
+    "spatial_shape": null,
+    "arrays": {
+      "src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "working_src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "dst_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "base_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_flipped_h": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_rows": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_cols": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "tofsims_sample_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U1"
+      },
+      "base_image_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U23"
+      }
+    }
+  },
+  {
+    "file": "python_data/0W0BM0C/0W0BM0C.npz",
+    "bytes": 2651632732,
+    "spatial_shape": [
+      576,
+      448
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          258049
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          902156953
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          902156953
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/0W0BM0C/0W0BM0C_100960081.npz",
+    "bytes": 4474,
+    "spatial_shape": null,
+    "arrays": {
+      "src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "working_src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "dst_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "base_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_flipped_h": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_rows": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_cols": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "tofsims_sample_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U1"
+      },
+      "base_image_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U23"
+      }
+    }
+  },
+  {
+    "file": "python_data/0W0BM0D/0W0BM0D.npz",
+    "bytes": 1892516659,
+    "spatial_shape": [
+      576,
+      448
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          258049
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          258048
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          636952801
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          636952801
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/0W0BM0D/0W0BM0D_100960033.npz",
+    "bytes": 4474,
+    "spatial_shape": null,
+    "arrays": {
+      "src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "working_src_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "dst_points": {
+        "shape": [
+          36,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "base_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_size": {
+        "shape": [
+          2
+        ],
+        "dtype": "int64"
+      },
+      "moving_flipped_h": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_rows": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "grid_cols": {
+        "shape": [
+          1
+        ],
+        "dtype": "int64"
+      },
+      "tofsims_sample_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U1"
+      },
+      "base_image_name": {
+        "shape": [
+          1
+        ],
+        "dtype": "<U23"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D0_R1_NEG_11pA/FD_13CFeed_WT_D0_R1_NEG_11pA.npz",
+    "bytes": 71140715,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          23172401
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          23172401
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D0_R2_NEG_11pA/FD_13CFeed_WT_D0_R2_NEG_11pA.npz",
+    "bytes": 141644653,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          46175418
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          46175418
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D0_R2_POS_11pA/FD_13CFeed_WT_D0_R2_POS_11pA.npz",
+    "bytes": 26976180,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          62465
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          62464
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          62464
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          8741962
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          8741962
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D0_R3_NEG_11pA/FD_13CFeed_WT_D0_R3_NEG_11pA.npz",
+    "bytes": 111784104,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          36382241
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          36382241
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D0_R3_POS_11pA/FD_13CFeed_WT_D0_R3_POS_11pA.npz",
+    "bytes": 39249132,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          76801
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          76800
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          76800
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          12645235
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          12645235
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D3_R1_NEG_11pA/FD_13CFeed_WT_D3_R1_NEG_11pA.npz",
+    "bytes": 176829903,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          57788825
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          57788825
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D3_R1_POS_11pA/FD_13CFeed_WT_D3_R1_POS_11pA.npz",
+    "bytes": 8703217,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          2779472
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          2779472
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D3_R2_NEG_11pA/FD_13CFeed_WT_D3_R2_NEG_11pA.npz",
+    "bytes": 172662467,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          56584447
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          56584447
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D3_R2_POS_11pA/FD_13CFeed_WT_D3_R2_POS_11pA.npz",
+    "bytes": 10218064,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          3273975
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          3273975
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D3_R3_NEG_11pA/FD_13CFeed_WT_D3_R3_NEG_11pA.npz",
+    "bytes": 213792050,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          70169896
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          70169896
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D3_R3_POS_11pA/FD_13CFeed_WT_D3_R3_POS_11pA.npz",
+    "bytes": 22480572,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          7183243
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          7183243
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D7_R1_NEG_11pA/FD_13CFeed_WT_D7_R1_NEG_11pA.npz",
+    "bytes": 17276740,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          59393
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          59392
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          59392
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          5490535
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          5490535
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D7_R1_NEG_11pA_Sputter/FD_13CFeed_WT_D7_R1_NEG_11pA_Sputter.npz",
+    "bytes": 41351099,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          13567233
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          13567233
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_13CFeed_WT_D7_R3_NEG_11pA/FD_13CFeed_WT_D7_R3_NEG_11pA.npz",
+    "bytes": 53350593,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          64513
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          64512
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          64512
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          17198566
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          17198566
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_ConFeed_SG_D5_R1_NEG_9pA_Sputter/FD_ConFeed_SG_D5_R1_NEG_9pA_Sputter.npz",
+    "bytes": 117544611,
+    "spatial_shape": [
+      320,
+      64
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          15361
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          15360
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          15360
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          39416462
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          39416462
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_ConFeed_WT_D3_R1_NEG_9pA/FD_ConFeed_WT_D3_R1_NEG_9pA.npz",
+    "bytes": 152915725,
+    "spatial_shape": [
+      320,
+      160
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          44033
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          44032
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          44032
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          49894508
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          49894508
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FD_ConFeed_WT_D3_R1_NEG_9pA_Sputter/FD_ConFeed_WT_D3_R1_NEG_9pA_Sputter.npz",
+    "bytes": 336736507,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          113714847
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          113714847
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_SG_D3_NEG_11pA_25e11/FH_ConFeed_SG_D3_NEG_11pA_25e11.npz",
+    "bytes": 754556796,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          249194256
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          249194256
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_SG_D3_POS_11pA_25e11/FH_ConFeed_SG_D3_POS_11pA_25e11.npz",
+    "bytes": 88748761,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          28039972
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          28039972
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_SG_D5_NEG_11pA_25e11/FH_ConFeed_SG_D5_NEG_11pA_25e11.npz",
+    "bytes": 590008442,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          196052345
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          196052345
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_SG_D5_POS_11pA_25e11/FH_ConFeed_SG_D5_POS_11pA_25e11.npz",
+    "bytes": 193921,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          49412
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          49412
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_SG_D7_NEG_11pA_25e11/FH_ConFeed_SG_D7_NEG_11pA_25e11.npz",
+    "bytes": 165765166,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          52801193
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          52801193
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_SG_D7_POS_11pA_25e11/FH_ConFeed_SG_D7_POS_11pA_25e11.npz",
+    "bytes": 36734460,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          11492142
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          11492142
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_WT_D3_NEG_11pA_25e11/FH_ConFeed_WT_D3_NEG_11pA_25e11.npz",
+    "bytes": 826055711,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          273192790
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          273192790
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_WT_D3_POS_11pA_25e11/FH_ConFeed_WT_D3_POS_11pA_25e11.npz",
+    "bytes": 12322471,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          3788631
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          3788631
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_WT_D5_POS_11pA_25e11/FH_ConFeed_WT_D5_POS_11pA_25e11.npz",
+    "bytes": 6079025,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          1891811
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          1891811
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_WT_D7_NEG_11pA_25e11/FH_ConFeed_WT_D7_NEG_11pA_25e11.npz",
+    "bytes": 332638231,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          108325934
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          108325934
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data/FH_ConFeed_WT_D7_POS_11pA_25e11/FH_ConFeed_WT_D7_POS_11pA_25e11.npz",
+    "bytes": 23281050,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          7308122
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          7308122
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R1_NEG_11pA/FD_13CFeed_WT_D0_R1_NEG_11pA.npz",
+    "bytes": 131324936,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          41503286
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          41503286
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R1_NEG_11pA__sputter/FD_13CFeed_WT_D0_R1_NEG_11pA__sputter.npz",
+    "bytes": 71140715,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          23172401
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          23172401
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R2_NEG_11pA/FD_13CFeed_WT_D0_R2_NEG_11pA.npz",
+    "bytes": 272989387,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          86688829
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          86688829
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R2_NEG_11pA__sputter/FD_13CFeed_WT_D0_R2_NEG_11pA__sputter.npz",
+    "bytes": 141644653,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          46175418
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          46175418
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R2_POS_11pA/FD_13CFeed_WT_D0_R2_POS_11pA.npz",
+    "bytes": 41433504,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          62465
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          13001215
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          13001215
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          62464
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          62464
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R3_NEG_11pA/FD_13CFeed_WT_D0_R3_NEG_11pA.npz",
+    "bytes": 215602671,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          68217021
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          68217021
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R3_NEG_11pA__sputter/FD_13CFeed_WT_D0_R3_NEG_11pA__sputter.npz",
+    "bytes": 111784104,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          36382241
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          36382241
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D0_R3_POS_11pA/FD_13CFeed_WT_D0_R3_POS_11pA.npz",
+    "bytes": 53246550,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          77825
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          16623334
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          16623334
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          77824
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          77824
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R1_NEG_11pA/FD_13CFeed_WT_D3_R1_NEG_11pA.npz",
+    "bytes": 314555543,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          100019271
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          100019271
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R1_NEG_11pA__sputter/FD_13CFeed_WT_D3_R1_NEG_11pA__sputter.npz",
+    "bytes": 176829903,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          57788825
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          57788825
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R1_POS_11pA/FD_13CFeed_WT_D3_R1_POS_11pA.npz",
+    "bytes": 11187433,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          3445169
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          3445169
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R2_NEG_11pA/FD_13CFeed_WT_D3_R2_NEG_11pA.npz",
+    "bytes": 323998606,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          103037027
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          103037027
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R2_NEG_11pA__sputter/FD_13CFeed_WT_D3_R2_NEG_11pA__sputter.npz",
+    "bytes": 172662467,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          56584447
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          56584447
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R2_POS_11pA/FD_13CFeed_WT_D3_R2_POS_11pA.npz",
+    "bytes": 13643542,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          4216396
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          4216396
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R3_NEG_11pA/FD_13CFeed_WT_D3_R3_NEG_11pA.npz",
+    "bytes": 398832825,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          127508725
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          127508725
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R3_NEG_11pA__sputter/FD_13CFeed_WT_D3_R3_NEG_11pA__sputter.npz",
+    "bytes": 213792050,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          70169896
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          70169896
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D3_R3_POS_11pA/FD_13CFeed_WT_D3_R3_POS_11pA.npz",
+    "bytes": 32270269,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "indices": {
+        "shape": [
+          9981179
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          9981179
+        ],
+        "dtype": "uint32"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D7_R1_NEG_11pA/FD_13CFeed_WT_D7_R1_NEG_11pA.npz",
+    "bytes": 17276740,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          59393
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          59392
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          59392
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          5490535
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          5490535
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D7_R1_NEG_11pA_Sputter/FD_13CFeed_WT_D7_R1_NEG_11pA_Sputter.npz",
+    "bytes": 41351099,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          13567233
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          13567233
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_13CFeed_WT_D7_R3_NEG_11pA/FD_13CFeed_WT_D7_R3_NEG_11pA.npz",
+    "bytes": 53350593,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          64513
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          64512
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          64512
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          17198566
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          17198566
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_ConFeed_SG_D5_R1_NEG_9pA_Sputter/FD_ConFeed_SG_D5_R1_NEG_9pA_Sputter.npz",
+    "bytes": 117544611,
+    "spatial_shape": [
+      320,
+      64
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          15361
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          15360
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          15360
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          39416462
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          39416462
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_ConFeed_WT_D3_R1_NEG_9pA/FD_ConFeed_WT_D3_R1_NEG_9pA.npz",
+    "bytes": 152915725,
+    "spatial_shape": [
+      320,
+      160
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          44033
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          44032
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          44032
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          49894508
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          49894508
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FD_ConFeed_WT_D3_R1_NEG_9pA_Sputter/FD_ConFeed_WT_D3_R1_NEG_9pA_Sputter.npz",
+    "bytes": 336736507,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          113714847
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          113714847
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_SG_D3_R1_NEG_11pA_25e11/FH_ConFeed_SG_D3_R1_NEG_11pA_25e11.npz",
+    "bytes": 754556796,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          249194256
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          249194256
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_SG_D3_R1_POS_11pA_25e11/FH_ConFeed_SG_D3_R1_POS_11pA_25e11.npz",
+    "bytes": 88748761,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          28039972
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          28039972
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_SG_D5_R1_NEG_11pA_25e11/FH_ConFeed_SG_D5_R1_NEG_11pA_25e11.npz",
+    "bytes": 590008442,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          196052345
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          196052345
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_SG_D5_R1_POS_11pA_25e11/FH_ConFeed_SG_D5_R1_POS_11pA_25e11.npz",
+    "bytes": 193921,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          49412
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          49412
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_SG_D7_R1_NEG_11pA_25e11/FH_ConFeed_SG_D7_R1_NEG_11pA_25e11.npz",
+    "bytes": 165765166,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          52801193
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          52801193
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_SG_D7_R1_POS_11pA_25e11/FH_ConFeed_SG_D7_R1_POS_11pA_25e11.npz",
+    "bytes": 36734460,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          11492142
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          11492142
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_WT_D3_R1_NEG_11pA_25e11/FH_ConFeed_WT_D3_R1_NEG_11pA_25e11.npz",
+    "bytes": 826055711,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          273192790
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          273192790
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_WT_D3_R1_POS_11pA_25e11/FH_ConFeed_WT_D3_R1_POS_11pA_25e11.npz",
+    "bytes": 12322471,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          3788631
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          3788631
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_WT_D5_R1_POS_11pA_25e11/FH_ConFeed_WT_D5_R1_POS_11pA_25e11.npz",
+    "bytes": 6079025,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          1891811
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          1891811
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_WT_D7_R1_NEG_11pA_25e11/FH_ConFeed_WT_D7_R1_NEG_11pA_25e11.npz",
+    "bytes": 332638231,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          108325934
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          108325934
+        ],
+        "dtype": "uint32"
+      }
+    }
+  },
+  {
+    "file": "python_data_harmonized/FH_ConFeed_WT_D7_R1_POS_11pA_25e11/FH_ConFeed_WT_D7_R1_POS_11pA_25e11.npz",
+    "bytes": 23281050,
+    "spatial_shape": [
+      320,
+      256
+    ],
+    "arrays": {
+      "indptr": {
+        "shape": [
+          81921
+        ],
+        "dtype": "uint64"
+      },
+      "n_pixels": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "n_bins": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "max_value": {
+        "shape": [
+          1
+        ],
+        "dtype": "uint32"
+      },
+      "shape": {
+        "shape": [
+          2
+        ],
+        "dtype": "uint32"
+      },
+      "tile_grid": {
+        "shape": [
+          3
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_x": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "pixel_y": {
+        "shape": [
+          81920
+        ],
+        "dtype": "uint32"
+      },
+      "indices": {
+        "shape": [
+          7308122
+        ],
+        "dtype": "uint32"
+      },
+      "values": {
+        "shape": [
+          7308122
+        ],
+        "dtype": "uint32"
+      }
+    }
+  }
+]

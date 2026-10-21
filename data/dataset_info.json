@@ -1,0 +1,1453 @@
+{
+  "sample": "0W0BM0D",
+  "source_file": "0W0BM0D.npz",
+  "source_bytes": 1892516659,
+  "axis_bytes": 736172,
+  "source_sha256": "ea44a16f65dae3146f03f017d7da76a0ff1d4c9840ab2655c28d3218433158b8",
+  "qms_sha256": "ce5f75ece475472e41396c26a9979064e3e6885725cbcacf1b549bacf3db508c",
+  "source_spatial_shape": [
+    576,
+    448
+  ],
+  "source_stored_pixels": 258048,
+  "source_arrays": {
+    "indptr": {
+      "shape": [
+        258049
+      ],
+      "dtype": "uint64"
+    },
+    "n_pixels": {
+      "shape": [
+        1
+      ],
+      "dtype": "uint32"
+    },
+    "n_bins": {
+      "shape": [
+        1
+      ],
+      "dtype": "uint32"
+    },
+    "max_value": {
+      "shape": [
+        1
+      ],
+      "dtype": "uint32"
+    },
+    "shape": {
+      "shape": [
+        2
+      ],
+      "dtype": "uint32"
+    },
+    "tile_grid": {
+      "shape": [
+        3
+      ],
+      "dtype": "uint32"
+    },
+    "pixel_x": {
+      "shape": [
+        258048
+      ],
+      "dtype": "uint32"
+    },
+    "pixel_y": {
+      "shape": [
+        258048
+      ],
+      "dtype": "uint32"
+    },
+    "indices": {
+      "shape": [
+        636952801
+      ],
+      "dtype": "uint32"
+    },
+    "values": {
+      "shape": [
+        636952801
+      ],
+      "dtype": "uint32"
+    }
+  },
+  "source_tile_grid": [
+    9,
+    7,
+    64
+  ],
+  "mass_channels": 184011,
+  "retained_mass_channels": 5454,
+  "qms_dtype": "float32",
+  "total_counts": 45733207325,
+  "retained_counts": 8842385018,
+  "acquisition": {
+    "sample_name": "0W0BM0D",
+    "acquisition_name": "260427004_WT_D_0day_NEG_64pix_HALF_new",
+    "raw_folder": "0W0BM0D",
+    "cache_file": "0W0BM0D.npz",
+    "raw_qms_file": "260427004_WT_D_0day_NEG_64pix_HALF_new.qms",
+    "qms_npy_file": "0W0BM0D_qms.npy",
+    "builder_exe": "native_cache_builder.exe",
+    "tile_size": 64,
+    "max_tiles": 0,
+    "tile_transform": "rot270",
+    "transform": "none"
+  },
+  "calibration": {
+    "method": "whole_cal",
+    "tile_id": null,
+    "tile_row": null,
+    "tile_col": null,
+    "fit_success": true,
+    "quality_pass": true,
+    "use_for_analysis": true,
+    "fallback_used": false,
+    "matched_peaks": 9,
+    "required_peaks": 4,
+    "mean_abs_residual_ppm": 10.245937020690654,
+    "failure_reason": "",
+    "coefficients": [
+      -2.0402611816368537e-08,
+      1.000308392427494,
+      -0.014900744888717876
+    ]
+  },
+  "spectral_reduction": "reference_window_subset",
+  "spectral_reduction_note": "Spatial spectra retain the union of all reference-ion windows on raw and saved-corrected axes. Original channel masses are not binned or interpolated. Full summed spectrum and all-channel TIC are retained separately. Other spatial channels are unavailable, not zero.",
+  "mass_axis_note": "Full acquisition QMS retained verbatim in full_mz_raw; mz_raw is its exact indexed subset. Saved polynomial is opt-in; original QC retained.",
+  "ion_assignment_note": "All project reference candidates retained with original confidence fields; not newly identified ions.",
+  "roi_note": "Tissue mask and original registration control points preserved. ROI spectra cover retained channels only; full TIC ROI counts are reported separately.",
+  "physical_pixel_size": null,
+  "spatial_units": "source pixel edges; physical pitch unavailable",
+  "mask_source": "0W0BM0D_mask.png",
+  "mask_sha256": "3c93373a8df549492e90f8af2f957ee74865ba7a3cd133dfedcab359b605f976",
+  "generation": {
+    "script": "scripts/generate_pilot_data.py",
+    "chunk_nnz": 2000000,
+    "streaming_counts": true,
+    "full_tic_matches_source_companion": true
+  },
+  "registration_source": "0W0BM0D_100960033.npz",
+  "registration_note": "Original control points retained as provenance; registration is not applied to the image or tissue mask.",
+  "variants": [
+    {
+      "file": "tofsims_demo_256.npz",
+      "bytes": 72178371,
+      "spatial_shape": [
+        256,
+        199
+      ],
+      "spectral_shape": [
+        50944,
+        5454
+      ],
+      "nnz": 46113276,
+      "sha256": "4ad7f7bf0bc5994d1f11ad82fef4603aaf10d344031f2c0c389b3f7746fec2a3",
+      "count_conservation": {
+        "total_tic_counts_equal": true,
+        "full_spectrum_counts_equal": true,
+        "every_retained_mass_channel_equal": true,
+        "every_spatial_subset_tic_bin_equal": true
+      }
+    }
+  ],
+  "distribution": {
+    "npz_compression": "ZIP_LZMA (lossless)",
+    "chunk_bytes": 20971520,
+    "optional_512": "Not distributed: 189,848,395 bytes with standard compression; kept only during local preparation."
+  },
+  "source_calibration": {
+    "gui_model": "whole_cal only; spatially varying tile corrections are preserved but not applied",
+    "manifest": {
+      "sample": "0W0BM0D",
+      "project_root": ".",
+      "processed_data_dir": "processed_data_neg",
+      "output_root": "processed_data_neg/tofsims_outputs_0W0BM0D",
+      "cache_path": "python_data/0W0BM0D/0W0BM0D.npz",
+      "qms_path": "python_data/0W0BM0D/0W0BM0D_qms.npy",
+      "known_peaks_file": "neg_known_peaks.tsv",
+      "ion_mode": "neg",
+      "calibration_methods": [
+        "whole_cal",
+        "tile_cal"
+      ],
+      "shape": [
+        576,
+        448
+      ],
+      "tile_size": 64,
+      "tile_rows": 9,
+      "tile_cols": 7,
+      "use_mask_for_calibration": true,
+      "mask_present": true,
+      "calibration_pixels": 139507,
+      "spectra_cache": "spectrum_cache/calibration_spectra_cache.npz",
+      "spectra_cache_reused": false,
+      "note": "Step 1 output. Reuse these calibration artifacts for directed and non-directed analysis."
+    },
+    "tile_models": [
+      {
+        "method": "tile_cal",
+        "tile_id": 0,
+        "tile_row": 0,
+        "tile_col": 0,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 1,
+        "tile_row": 0,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 8.239429710301595,
+        "failure_reason": "",
+        "coefficients": [
+          -5.697629614035028e-08,
+          1.0003380564658544,
+          -0.01793934335062817
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95941410129598,69730.0,156,True,-230.8700261688236,152.99185062629027,-18.859300556043525\nFA_16_0,255.231857,255.16888417779077,67613.0,121,True,-246.7279083003275,255.23349653291828,6.423700150760912\nFA_20_4,303.23364,303.1577686202133,78599.0,111,True,-250.2076609530867,303.23707733515073,11.335599674065621\nLPE_O_18_2,462.2998,462.1753051211147,2363.0,90,True,-269.29468471603633,462.3014366485836,3.5402320822955122\nPI_fragment,581.308525,581.1407858823036,5401.0,80,True,-288.55437428247245,581.300062641627,-14.557430364505347\nPS_36_2,699.495932,699.3129686300111,2313.0,73,True,-261.5645947586401,699.5035729476634,10.92350550423194\nPE_40_5_PE_18_0_22_5,792.56061,792.3414830700945,2907.0,69,True,-276.47971289608006,792.5556298831924,-6.283578498289695\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4263185167582,362.0,66,True,-268.1641358893778,852.6551466801726,0.2072118016951312\nPI_38_3,887.564406,887.3290351773209,6100.0,64,True,-265.1873160843061,887.5662027044028,2.024308760826676\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 2,
+        "tile_row": 0,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 10.812245550403738,
+        "failure_reason": "",
+        "coefficients": [
+          -2.8326293166497785e-08,
+          1.0003075712850107,
+          -0.012477193910905765
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95689045139773,380494.0,156,True,-247.36503746287767,152.99079568825172,-25.754557648743994\nFA_16_0,255.231857,255.17302114116322,398689.0,121,True,-230.51926012814522,255.23718342366936,20.868960998757792\nFA_20_4,303.23364,303.15783330490416,459678.0,111,True,-249.99434461104295,303.2359954366645,7.767728753695548\nLPE_O_18_2,462.2998,462.17059981267175,12604.0,90,True,-279.4727303110483,462.294222480703,-12.064723577626024\nPI_fragment,581.308525,581.1524567076591,27049.0,80,True,-268.4775564592539,581.3091584510032,1.089698457771658\nPS_36_2,699.495932,699.3127585086017,11678.0,73,True,-261.86498451043565,699.5015171952251,7.984600009197046\nPE_40_5_PE_18_0_22_5,792.56061,792.3417791093863,12737.0,69,True,-276.1061903060396,792.5552200921429,-6.800625452581322\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4198290828914,1226.0,66,True,-275.7749915052411,852.648949312361,-7.061106603388906\nPI_38_3,887.564406,887.3332958727416,32564.0,64,True,-260.3868808799162,887.5714339199811,7.918208451871335\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 3,
+        "tile_row": 0,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 34.6057803874331,
+        "failure_reason": "",
+        "coefficients": [
+          9.937584297267663e-08,
+          1.0001469259322069,
+          0.014029099827407446
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95972436603762,29194.0,156,True,-228.84208226856654,152.9985522804849,24.943867904697168\nFA_16_0,255.231857,255.1732612404567,32929.0,121,True,-229.5785496059547,255.2312526079094,-2.3680119625263685\nFA_20_4,303.23364,303.15782479091587,35529.0,111,True,-250.02242193218476,303.225528740486,-26.749207356917836\nLPE_O_18_2,462.2998,462.2152415512109,686.0,90,True,-182.90825301913608,462.3184130024998,40.26175762961444\nPI_fragment,581.308525,581.1521885203499,2204.0,80,True,-268.9389075278431,581.2851669323894,-40.18187693121438\nPS_36_2,699.495932,699.3061106103098,897.0,73,True,-271.36882575926603,699.4714835850607,-34.95147551386033\nPE_40_5_PE_18_0_22_5,792.56061,792.4427477808056,1034.0,69,True,-148.71066983056528,792.6356118718373,94.6323484803818\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4159127227531,133.0,66,True,-280.36812738798295,852.6273915934712,-32.3441573663099\nPI_38_3,887.564406,887.3284309858195,2013.0,64,True,-265.86804584008945,887.5510753858626,-15.019320341375705\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 4,
+        "tile_row": 0,
+        "tile_col": 4,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 5,
+        "tile_row": 0,
+        "tile_col": 5,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 6,
+        "tile_row": 0,
+        "tile_col": 6,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 7,
+        "tile_row": 1,
+        "tile_col": 0,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 19.87040468175781,
+        "failure_reason": "",
+        "coefficients": [
+          -1.503149532421748e-07,
+          1.0004099143929968,
+          -0.02800876204110692
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.959569792356,115379.0,156,True,-229.85240252960247,152.99074449617626,-26.089157889241473\nFA_16_0,255.231857,255.16523805072256,120440.0,121,True,-261.0134567857903,255.2320382911597,0.7102998890921218\nFA_20_4,303.23364,303.1577103623516,144590.0,111,True,-250.3997829804028,303.2401556738822,21.487305571485543\nLPE_O_18_2,462.2998,462.1691003874115,4202.0,90,True,-282.71613482960777,462.29843407591477,-2.9546283282727734\nPI_fragment,581.308525,581.1524165232861,7577.0,80,True,-268.5466839041095,581.3118634098987,5.742922656560729\nPS_36_2,699.495932,699.3122303049711,3552.0,73,True,-262.6201048856965,699.4973700280364,2.055806146301403\nPE_40_5_PE_18_0_22_5,792.56061,792.3230419561397,5509.0,69,True,-299.7474778115437,792.5254537224528,-44.357841032789\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4898049631427,594.0,66,True,-193.706766122982,852.7020043231415,55.16219900937713\nPI_38_3,887.564406,887.3290426992786,10222.0,64,True,-265.1788412539836,887.5464119793348,-20.273481612700138\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 8,
+        "tile_row": 1,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 10.293659167964107,
+        "failure_reason": "",
+        "coefficients": [
+          -5.44988102532032e-08,
+          1.00033281186096,
+          -0.01842711241527757
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95959028261123,664727.0,156,True,-229.7184746850255,152.9907948472495,-25.760054584396578\nFA_16_0,255.231857,255.17292773836445,588428.0,121,True,-230.8852128734886,255.23587660970838,15.748855787988667\nFA_20_4,303.23364,303.15777571022136,726186.0,111,True,-250.18427961561818,303.23523440793286,5.25801798535505\nLPE_O_18_2,462.2998,462.1755043024774,18300.0,90,True,-268.8638358108698,462.29925339615204,-1.1823579589810411\nPI_fragment,581.308525,581.1522394633394,41187.0,80,True,-268.85127249884295,581.3088203941275,0.5081537853241836\nPS_36_2,699.495932,699.3118650217997,15765.0,73,True,-263.1423140289954,699.4995252532955,5.136918073506117\nPE_40_5_PE_18_0_22_5,792.56061,792.3421782616214,20627.0,69,True,-275.60256669660447,792.5532373370547,-9.302333288140787\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4175213282766,2689.0,66,True,-278.48154303660203,852.6431891900669,-13.816620259841901\nPI_38_3,887.564406,887.3445641747975,50483.0,64,True,-247.69112383995198,887.5785445644126,15.929620788142625\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 9,
+        "tile_row": 1,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 21.544421803519384,
+        "failure_reason": "",
+        "coefficients": [
+          -1.0304304440791936e-07,
+          1.0003797173293876,
+          -0.02561630315592831
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95681039749118,839692.0,156,True,-247.888283612626,152.98686367289102,-51.45488867649677\nFA_16_0,255.231857,255.1729304486838,706821.0,121,True,-230.87459382550637,255.23749826433294,22.10250867293133\nFA_20_4,303.23364,303.1578139527399,763144.0,111,True,-250.05816392956788,303.2378417891029,13.856606090675804\nLPE_O_18_2,462.2998,462.17545776242156,21918.0,90,True,-268.9645065354694,462.3033268614082,7.628948591810424\nPI_fragment,581.308525,581.1525430157835,43583.0,80,True,-268.3290843128608,581.3127988238239,7.35207491381125\nPS_36_2,699.495932,699.2993396624204,17988.0,73,True,-281.0485788209833,699.4888693720612,-10.096739117001704\nPE_40_5_PE_18_0_22_5,792.56061,792.3200986815707,17917.0,69,True,-303.46110492331763,792.5306526009754,-37.79824362533543\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4640877967155,2633.0,66,True,-223.86804745248733,852.6872860130583,37.90045703741217\nPI_38_3,887.564406,887.3291519022538,47449.0,64,True,-265.05580457693407,887.5593386023481,-5.709329506199562\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 10,
+        "tile_row": 1,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 18.067484768705565,
+        "failure_reason": "",
+        "coefficients": [
+          -8.777930179348031e-08,
+          1.0003527444288502,
+          -0.021720098191287184
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95971714601015,326117.0,156,True,-228.88927361422245,152.98989899207874,-31.615518597013622\nFA_16_0,255.231857,255.1731915132008,325027.0,121,True,-229.8517414273461,255.23576673163427,15.318352811578823\nFA_20_4,303.23364,303.1580985761813,301815.0,111,True,-249.11953640322736,303.2352484662749,5.304379405084907\nLPE_O_18_2,462.2998,462.1757359883672,7714.0,90,True,-268.36267641216995,462.298295584585,-3.254198714802012\nPI_fragment,581.308525,581.1709073304045,17795.0,80,True,-236.7377454090432,581.3245437280566,27.556327436562402\nPS_36_2,699.495932,699.2923165986286,7311.0,73,True,-291.0887569985096,699.474343035352,-30.86360286081498\nPE_40_5_PE_18_0_22_5,792.56061,792.3637764142704,7129.0,69,True,-248.35146138484504,792.566446835905,7.364529389151888\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4220844042793,769.0,66,True,-273.1299340467636,852.6372689517957,-20.759919108129118\nPI_38_3,887.564406,887.3604904837621,16508.0,64,True,-229.7472891650465,887.5826636743191,20.570534595212326\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 11,
+        "tile_row": 1,
+        "tile_col": 4,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 12,
+        "tile_row": 1,
+        "tile_col": 5,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 13,
+        "tile_row": 1,
+        "tile_col": 6,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 14,
+        "tile_row": 2,
+        "tile_col": 0,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 13.177375141586406,
+        "failure_reason": "",
+        "coefficients": [
+          -7.63756449310584e-08,
+          1.0003611528524932,
+          -0.019355931537375425
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95666296848032,676852.0,156,True,-248.85190507255686,152.9907609072937,-25.981891993318357\nFA_16_0,255.231857,255.16515923605678,669415.0,121,True,-261.32225313554994,255.23298416802635,4.416251323821205\nFA_20_4,303.23364,303.1575940044987,758257.0,111,True,-250.78350641195576,303.2407050352844,23.29898254173519\nLPE_O_18_2,462.2998,462.1646399870458,18231.0,90,True,-292.36442013213525,462.29588258951,-8.47374472156938\nPI_fragment,581.308525,581.1406886857623,42006.0,80,True,-288.72157730316235,581.3054194451436,-5.342352163957878\nPS_36_2,699.495932,699.3118989454724,14708.0,73,True,-263.09381671660304,699.5077509746693,16.89641658883564\nPE_40_5_PE_18_0_22_5,792.56061,792.3272396732615,25234.0,69,True,-294.4510789383149,792.5460876945839,-18.323274249155386\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4177692279529,2103.0,66,True,-278.19080447876524,852.6507706356003,-4.925045355344903\nPI_38_3,887.564406,887.3331427217195,51159.0,64,True,-260.559432889757,887.5741145498858,10.938417336539729\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 15,
+        "tile_row": 2,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 13.94594468739179,
+        "failure_reason": "",
+        "coefficients": [
+          -3.921312688022214e-08,
+          1.000324689687864,
+          -0.01631084577318251
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95676648686563,1009536.0,156,True,-248.17529103979567,152.9892017044676,-36.1731107688905\nFA_16_0,255.231857,255.17293201778114,758403.0,121,True,-230.86844609235007,255.23691989849345,19.83646772378931\nFA_20_4,303.23364,303.1577852965133,891306.0,111,True,-250.15266606534112,303.2363027890031,8.78131134502425\nLPE_O_18_2,462.2998,462.17555342271964,24760.0,90,True,-268.7575838889825,462.3009300444485,2.44439744181849\nPI_fragment,581.308525,581.1464639487561,50530.0,80,True,-278.78664130012817,581.3056018700762,-5.028534415229911\nPS_36_2,699.495932,699.31229499364,20054.0,73,True,-262.5276259077265,699.5038669418201,11.343799809337003\nPE_40_5_PE_18_0_22_5,792.56061,792.3274187055869,24028.0,69,True,-294.22518791734024,792.543751077904,-21.271460987757703\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4182061923187,2772.0,66,True,-277.67832946697496,852.6501738311407,-5.624982001035186\nPI_38_3,887.564406,887.3368046848619,50126.0,64,True,-256.43357665024615,887.5777278426509,15.009437693643758\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 16,
+        "tile_row": 2,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 19.74302565516144,
+        "failure_reason": "",
+        "coefficients": [
+          -8.666757851996435e-08,
+          1.0003554415473852,
+          -0.020244178296819248
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95684671278073,1013182.0,156,True,-247.65092061244508,152.98894209569292,-37.86995852634396\nFA_16_0,255.231857,255.17291609700436,843257.0,121,True,-230.93082379457843,255.2377277699993,23.001713298349102\nFA_20_4,303.23364,303.1577503950804,853001.0,111,True,-250.26776356196092,303.23729592567486,12.056464694607698\nLPE_O_18_2,462.2998,462.1753348291157,21180.0,90,True,-269.2304233839615,462.3008542487389,2.280443856800817\nPI_fragment,581.308525,581.1405368224854,40696.0,80,True,-288.9828211527504,581.2975843865166,-18.82066581321669\nPS_36_2,699.495932,699.3261991538652,14994.0,73,True,-242.65022621292476,699.512139164463,23.1697765797904\nPE_40_5_PE_18_0_22_5,792.56061,792.3280518040101,22738.0,69,True,-293.4263866455531,792.5350254377579,-32.28089046981788\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.455072292892,2320.0,66,True,-234.44149643318616,852.6748464989181,23.311303654339532\nPI_38_3,887.564406,887.3331481779662,43553.0,64,True,-260.5532854522109,887.5600604722395,-4.896014003186862\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 17,
+        "tile_row": 2,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 15.858785909253092,
+        "failure_reason": "",
+        "coefficients": [
+          -7.546535134814219e-08,
+          1.0003251906098094,
+          -0.015269148645840438
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95966999328087,705702.0,156,True,-229.19747199093158,152.99237625578047,-15.423695489224112\nFA_16_0,255.231857,255.17309259404254,692750.0,121,True,-230.2393073034267,255.23588954038024,15.799518240590354\nFA_20_4,303.23364,303.15799720237817,670664.0,111,True,-249.45384562811236,303.2343765618569,2.4290242234043244\nLPE_O_18_2,462.2998,462.175282534612,15590.0,90,True,-269.3435415460052,462.2941885967122,-12.138017987001504\nPI_fragment,581.308525,581.1648957934298,31205.0,80,True,-247.07913335739804,581.3131273902945,7.917293651435854\nPS_36_2,699.495932,699.3254906157151,13843.0,73,True,-243.6631529758682,699.500728756246,6.857446950704299\nPE_40_5_PE_18_0_22_5,792.56061,792.3417755420058,14964.0,69,True,-276.11069138819374,792.5367909367001,-30.053301917092362\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4791593164666,1240.0,66,True,-206.19205859250127,852.686266151243,36.70435562340187\nPI_38_3,887.564406,887.3368662485138,31181.0,64,True,-256.36421418877825,887.5507318107825,-15.406419100423136\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 18,
+        "tile_row": 2,
+        "tile_col": 4,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 26.86378195327429,
+        "failure_reason": "",
+        "coefficients": [
+          -1.2604227654869448e-07,
+          1.0003681010542533,
+          -0.024644463957061782
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95968333966024,56610.0,156,True,-229.11023775186672,152.9883945275129,-41.44895865628883\nFA_16_0,255.231857,255.1731435582658,79747.0,121,True,-230.03962916039345,255.23422156472031,9.264379251544096\nFA_20_4,303.23364,303.1666652459342,80057.0,111,True,-220.86848301451036,303.24203220203844,27.675696002807612\nLPE_O_18_2,462.2998,462.18126293692194,1897.0,90,True,-256.4073423308107,462.29982380085414,0.05148359168084148\nPI_fragment,581.308525,581.1518207262551,4997.0,80,True,-269.5716078564916,581.298529664535,-17.19454478166807\nPS_36_2,699.495932,699.3526532268297,1791.0,73,True,-204.83146022116236,699.5237946737778,39.83250295414734\nPE_40_5_PE_18_0_22_5,792.56061,792.3195877030166,1915.0,69,True,-304.1058235071435,792.5074713131743,-67.04684304928888\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4895920140783,455.0,66,True,-193.9565143468718,852.6871500921197,37.74104796420549\nPI_38_3,887.564406,887.3603110966473,4292.0,64,True,-229.94940082434007,887.5630581612658,-1.5185813278374558\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 19,
+        "tile_row": 2,
+        "tile_col": 5,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 20,
+        "tile_row": 2,
+        "tile_col": 6,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 21,
+        "tile_row": 3,
+        "tile_col": 0,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 15.335342019380477,
+        "failure_reason": "",
+        "coefficients": [
+          -7.19305993402677e-08,
+          1.000359825722834,
+          -0.020819984752790385
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9567357505344,823139.0,156,True,-248.37618900559355,152.98927066252992,-35.72238897206639\nFA_16_0,255.231857,255.16528797257564,798539.0,121,True,-260.81786265556275,255.23159966929842,-1.008223286062211\nFA_20_4,303.23364,303.15767609911825,830475.0,111,True,-250.5127758309786,303.2393292930252,18.762077404167528\nLPE_O_18_2,462.2998,462.17518598771693,21314.0,90,True,-269.55238198907983,462.3053037227456,11.905094368573723\nPI_fragment,581.308525,581.1526653424095,47417.0,80,True,-268.1186510907508,581.3166653085384,14.003421915019507\nPS_36_2,699.495932,699.2853732012019,17523.0,73,True,-301.0150440705647,699.4810000158651,-21.346777660649018\nPE_40_5_PE_18_0_22_5,792.56061,792.3274335629077,29665.0,69,True,-294.2064419430472,792.5465565793336,-17.73166681399198\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4260152138445,1606.0,66,True,-268.5198517702357,852.6596530967661,5.492370221016654\nPI_38_3,887.564406,887.3332676025166,50151.0,64,True,-260.418732343117,887.5750976518988,12.046057532877283\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 22,
+        "tile_row": 3,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 12.615938494603077,
+        "failure_reason": "",
+        "coefficients": [
+          -3.026106764310802e-08,
+          1.00031114886608,
+          -0.013878370468744355
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95683632996918,1174813.0,156,True,-247.718784460733,152.98984232398556,-31.985911034435283\nFA_16_0,255.231857,255.17291096685665,880342.0,121,True,-230.95092374516125,255.23645896290142,18.03051921309511\nFA_20_4,303.23364,303.15774805772713,939146.0,111,True,-250.27547165560784,303.2354157448812,5.856028642564203\nLPE_O_18_2,462.2998,462.17513016308465,26393.0,90,True,-269.6731361669617,462.2985931191922,-2.6106020547394513\nPI_fragment,581.308525,581.1586718066199,44767.0,80,True,-257.785989600241,581.3153997614457,11.826355799126107\nPS_36_2,699.495932,699.3051496514512,19802.0,73,True,-272.7426133892808,699.4940607852634,-2.6750902343184015\nPE_40_5_PE_18_0_22_5,792.56061,792.3276166219721,23763.0,69,True,-293.97547025193876,792.5412727055755,-24.398505528215864\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4326096112273,2956.0,66,True,-260.78589417323104,852.6619757374852,8.216380284749034\nPI_38_3,887.564406,887.3330689049798,47985.0,64,True,-260.64260064547284,887.5714568592681,7.944053660184224\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 23,
+        "tile_row": 3,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 16.87526606281509,
+        "failure_reason": "",
+        "coefficients": [
+          -5.571419677271971e-08,
+          1.000328267626029,
+          -0.016105848518414276
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95680885456724,1151827.0,156,True,-247.89836842979068,152.98961029718646,-33.5024782390529\nFA_16_0,255.231857,255.17295240101672,916344.0,121,True,-230.78858444882724,255.23698384018704,20.08699167614449\nFA_20_4,303.23364,303.1578318143282,958417.0,111,True,-249.9992602133576,303.23612247264765,8.186666385928932\nLPE_O_18_2,462.2998,462.17515770280664,22116.0,90,True,-269.6135650358516,462.2988681162875,-2.015756252753145\nPI_fragment,581.308525,581.1524056104892,39959.0,80,True,-268.5654567183188,581.3082564745271,-0.4619327971515654\nPS_36_2,699.495932,699.3187659227339,14946.0,73,True,-253.2767799801571,699.5049769392411,12.930653099362678\nPE_40_5_PE_18_0_22_5,792.56061,792.319603624178,22803.0,69,True,-304.08573525001844,792.5286149299507,-40.369240718805926\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4572711195099,2049.0,66,True,-231.86269645526062,852.6805128137848,29.95679927227273\nPI_38_3,887.564406,887.3292212558932,39573.0,64,True,-264.9776653016571,887.560530116187,-4.366876123863458\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 24,
+        "tile_row": 3,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 11.72626378224032,
+        "failure_reason": "",
+        "coefficients": [
+          -7.126683885507764e-08,
+          1.0003456090651786,
+          -0.01944242672521924
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95972709384122,845149.0,156,True,-228.82425287341445,152.99148152811807,-21.271789912541454\nFA_16_0,255.231857,255.1730944457115,795163.0,121,True,-230.23205245291143,255.23720173397865,20.94070090419821\nFA_20_4,303.23364,303.1580881850066,694292.0,111,True,-249.15380428566286,303.23687017528493,10.652430531635076\nLPE_O_18_2,462.2998,462.16491177090217,17807.0,90,True,-291.77652488242364,462.28997538666937,-21.25160627505379\nPI_fragment,581.308525,581.1524197479465,36185.0,80,True,-268.541136659782,581.3097593364959,2.1233758714048405\nPS_36_2,699.495932,699.3124196046034,12112.0,73,True,-262.34948196472584,699.4998137071077,5.5492918973350704\nPE_40_5_PE_18_0_22_5,792.56061,792.3567696419452,17498.0,69,True,-257.1921383460837,792.5664294916473,7.3426455641593975\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4213067832197,1734.0,66,True,-274.0419337265043,852.6446848284828,-12.06252456047864\nPI_38_3,887.564406,887.3371436500513,34412.0,64,True,-256.05167175739575,887.5682598122158,4.342008523356411\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 25,
+        "tile_row": 3,
+        "tile_col": 4,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 11.787405711437666,
+        "failure_reason": "",
+        "coefficients": [
+          -8.873741873431084e-08,
+          1.0003651426761093,
+          -0.023102134443095265
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95960126144308,310643.0,156,True,-229.6467151451906,152.99027504773446,-29.15755392742476\nFA_16_0,255.231857,255.17307204761187,381141.0,121,True,-230.31980834635075,255.23736650569296,21.586277503635262\nFA_20_4,303.23364,303.1579361513971,410679.0,111,True,-249.65517876865673,303.23737452815715,12.315678950288829\nLPE_O_18_2,462.2998,462.17039820721646,8874.0,90,True,-279.9088227672601,462.29709976508826,-5.84087406428129\nPI_fragment,581.308525,581.1405438523241,17211.0,80,True,-288.97072802426146,581.2996721458193,-15.229183471477723\nPS_36_2,699.495932,699.3126487763941,6857.0,73,True,-262.0218577710617,699.501499548141,7.9593717222879174\nPE_40_5_PE_18_0_22_5,792.56061,792.3564304450869,6776.0,69,True,-257.6201142687867,792.5669395587017,7.986214078613444\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4262018882648,1358.0,66,True,-268.3009186414933,852.6498776296626,-5.972369266174833\nPI_38_3,887.564406,887.3333384699039,17869.0,64,True,-260.3388875602159,887.5643712710082,-0.039128418754935765\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 26,
+        "tile_row": 3,
+        "tile_col": 5,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 27,
+        "tile_row": 3,
+        "tile_col": 6,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 28,
+        "tile_row": 4,
+        "tile_col": 0,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 12.95781079963036,
+        "failure_reason": "",
+        "coefficients": [
+          -6.120416467922431e-08,
+          1.000335032646496,
+          -0.01753682987359843
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95688303695738,767116.0,156,True,-247.41349952465094,152.98915983551763,-36.44677345214878\nFA_16_0,255.231857,255.17292694157106,741351.0,121,True,-230.888334714924,255.23689617232336,19.74350844206914\nFA_20_4,303.23364,303.15780023040935,804096.0,111,True,-250.10341725485887,303.23620621320674,8.462824925236902\nLPE_O_18_2,462.2998,462.1752486677878,19075.0,90,True,-269.4167988223367,462.2994820602385,-0.6877350184603064\nPI_fragment,581.308525,581.1586103167552,48780.0,80,True,-257.8917679639873,581.3151091733118,11.326469557293551\nPS_36_2,699.495932,699.2985679161997,15760.0,73,True,-282.151867897325,699.4853889682107,-15.072327524736972\nPE_40_5_PE_18_0_22_5,792.56061,792.3419645530346,22993.0,69,True,-275.87220990633244,792.5514638195912,-11.54003907516167\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4423007764228,2725.0,66,True,-249.4200245818335,852.665885458246,12.801729456762702\nPI_38_3,887.564406,887.3333252343764,48767.0,64,True,-260.3537997484476,887.5648842993562,0.5388897448032302\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 29,
+        "tile_row": 4,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 16.551012575362975,
+        "failure_reason": "",
+        "coefficients": [
+          -6.739013639268707e-08,
+          1.0003584443003493,
+          -0.024639802104026855
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95960441634105,1226968.0,156,True,-229.6260941875665,152.9882154098237,-42.619702786895125\nFA_16_0,255.231857,255.17299040055138,949604.0,121,True,-230.63970203612317,255.2354279113221,13.990852725333191\nFA_20_4,303.23364,303.15783148759465,957937.0,111,True,-250.00033771098396,303.23566341399373,6.672788658126041\nLPE_O_18_2,462.2998,462.1862743997861,28058.0,90,True,-245.5670545691442,462.312907011805,28.351757463457115\nPI_fragment,581.308525,581.1403376794483,42906.0,80,True,-289.3253983360001,581.3012450464603,-12.52339029390761\nPS_36_2,699.495932,699.2985131763664,18659.0,73,True,-282.2301240110681,699.491577923169,-6.22459206964722\nPE_40_5_PE_18_0_22_5,792.56061,792.3273433174653,23926.0,69,True,-294.3203076099006,792.5444023792671,-20.44969246310508\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4334672754061,2986.0,66,True,-259.7800193364978,852.665408832586,12.242739388382436\nPI_38_3,887.564406,887.3292695961926,48935.0,64,True,-264.92320131116185,887.5696280715688,5.883597329412954\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 30,
+        "tile_row": 4,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 14.62588783227411,
+        "failure_reason": "",
+        "coefficients": [
+          7.875733527336125e-10,
+          1.0002826065447377,
+          -0.008868854900697883
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9567412754536,1151478.0,156,True,-248.34007718013157,152.99111742257995,-23.651646551041484\nFA_16_0,255.231857,255.17295268326853,959996.0,121,True,-230.7874785844509,255.23624865628557,17.20653658675934\nFA_20_4,303.23364,303.1577463615406,951680.0,111,True,-250.28106531774208,303.23462425147864,3.245851874005639\nLPE_O_18_2,462.2998,462.1807546679858,24554.0,90,True,-257.5067780998295,462.30266935357685,6.206694393640554\nPI_fragment,581.308525,581.1402095013301,44335.0,80,True,-289.5458976279876,581.2958406554229,-21.82033125543806\nPS_36_2,699.495932,699.3263096628505,14298.0,73,True,-242.4922424703625,699.5154601684552,27.91748680986948\nPE_40_5_PE_18_0_22_5,792.56061,792.3276088585919,23222.0,69,True,-293.9852655660837,792.5431513967245,-22.028098615052272\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4211449176913,1843.0,66,True,-274.2317708049323,852.653748125191,-1.4330237341626866\nPI_38_3,887.564406,887.3290997160826,47072.0,64,True,-265.1146016296411,887.5716159702856,8.123320670497481\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 31,
+        "tile_row": 4,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 12.792774192014523,
+        "failure_reason": "",
+        "coefficients": [
+          -1.0326204316384506e-08,
+          1.0002789149582203,
+          -0.008526091961923702
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95959084237387,925051.0,156,True,-229.71481597980184,152.99348586985303,-8.171066401637262\nFA_16_0,255.231857,255.17305104924785,833118.0,121,True,-230.40208006692916,255.23502416506352,12.408972378124098\nFA_20_4,303.23364,303.15792419547006,757198.0,111,True,-249.69460687119235,303.2330043562806,-2.0962176866758195\nLPE_O_18_2,462.2998,462.17558372142634,19730.0,90,True,-268.69204480224647,462.29375957109926,-13.066042643207979\nPI_fragment,581.308525,581.1641716941544,35809.0,80,True,-248.32477013060173,581.3142532888219,9.854128359535752\nPS_36_2,699.495932,699.3260486220771,14026.0,73,True,-242.86542658968452,699.5075249240471,16.57325442033061\nPE_40_5_PE_18_0_22_5,792.56061,792.3271494965828,18503.0,69,True,-294.56485784371404,792.5331326900013,-34.66903307085146\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4485038161243,1763.0,66,True,-242.1450541427146,852.6702346360871,17.902477114591413\nPI_38_3,887.564406,887.3332225248096,38307.0,64,True,-260.4695204399529,887.5640564987463,-0.3937756531763116\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 32,
+        "tile_row": 4,
+        "tile_col": 4,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 10.64075629107369,
+        "failure_reason": "",
+        "coefficients": [
+          1.6270514932819737e-08,
+          1.0002613503400581,
+          -0.005539387393986794
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9596230910606,508501.0,156,True,-229.50403299755655,152.99444042865957,-1.9319052938935446\nFA_16_0,255.231857,255.17305070289356,541784.0,121,True,-230.40343708516343,255.23526030576343,13.33417310614843\nFA_20_4,303.23364,303.15799072636185,443820.0,111,True,-249.47520215149837,303.23317712082496,-1.5264769931787934\nLPE_O_18_2,462.2998,462.16971562400994,12410.0,90,True,-281.3853174716187,462.288439844714,-24.57313476236242\nPI_fragment,581.308525,581.1651837156077,22434.0,80,True,-246.58383324477026,581.317027461362,14.6264178080194\nPS_36_2,699.495932,699.3188066237632,8896.0,73,True,-253.21859375282077,699.5039914874426,11.521850340870133\nPE_40_5_PE_18_0_22_5,792.56061,792.3422267262997,13396.0,69,True,-275.54141720503003,792.5539809795242,-8.364054927951354\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4166617813364,1785.0,66,True,-279.4896259897869,852.6457241649968,-10.84358307710146\nPI_38_3,887.564406,887.3332579876968,23961.0,64,True,-260.4295651567076,887.572434206716,9.045210310137666\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 33,
+        "tile_row": 4,
+        "tile_col": 5,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 27.219562502822157,
+        "failure_reason": "",
+        "coefficients": [
+          1.236315743339964e-07,
+          1.0000882270986455,
+          0.015595005074386823
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.96313841505872,8840.0,156,True,-206.5272686327367,152.99512161120646,2.5204213984733688\nFA_16_0,255.231857,255.18115362613062,8605.0,121,True,-198.65613354593057,255.22731309331374,-17.803054601649418\nFA_20_4,303.23364,303.17594809227427,8631.0,111,True,-190.2556316829216,303.2296551088235,-13.141322896951506\nLPE_O_18_2,462.2998,462.2491035486874,448.0,90,True,-109.66141735861358,462.3318983329303,69.43185554109014\nPI_fragment,581.308525,581.1718754703526,566.0,80,True,-235.07229598509122,581.2805034769411,-48.2042183346554\nPS_36_2,699.495932,699.3522028675368,397.0,73,True,-205.47529426268298,699.4899670882551,-8.527443080209434\nPE_40_5_PE_18_0_22_5,792.56061,792.3924175791192,375.0,69,True,-212.21395406064164,792.5555495711482,-6.38491086736487\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.5160404034515,116.0,66,True,-162.93764938538317,852.696703825882,48.94573696312353\nPI_38_3,887.564406,887.3465353681867,891.0,64,True,-245.47022203738322,887.5377638914965,-30.017098841881754\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 34,
+        "tile_row": 4,
+        "tile_col": 6,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 35,
+        "tile_row": 5,
+        "tile_col": 0,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 17.061080726652293,
+        "failure_reason": "",
+        "coefficients": [
+          -1.1078951530875998e-07,
+          1.0004008524355137,
+          -0.026290030330787806
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95396928316347,560921.0,156,True,-266.45829720909563,152.98639931245728,-54.49002861581386\nFA_16_0,255.231857,255.16513185533188,606503.0,121,True,-261.42953098567193,255.23391196792159,8.051377072395209\nFA_20_4,303.23364,303.157570467616,534443.0,111,True,-250.86112604128235,303.2426198313534,29.613572403869295\nLPE_O_18_2,462.2998,462.16980747957257,13161.0,90,True,-281.1866248426582,462.30511459858184,11.496000175282905\nPI_fragment,581.308525,581.14046250653,32493.0,80,True,-289.1106636877113,581.3097077414274,2.0346190989172874\nPS_36_2,699.495932,699.2859450227588,13636.0,73,True,-300.19756746950577,699.4857893013477,-14.500010919744048\nPE_40_5_PE_18_0_22_5,792.56061,792.3278381470592,18922.0,69,True,-293.69596470457986,792.5496028414262,-13.888096928967292\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4174553685508,1224.0,66,True,-278.5589010866189,852.6523575701998,-3.0638768225926696\nPI_38_3,887.564406,887.3368037110696,36815.0,64,True,-256.43467380143045,887.5789728352863,16.412144502288086\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 36,
+        "tile_row": 5,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 8.324296738236196,
+        "failure_reason": "",
+        "coefficients": [
+          -1.9929697592248262e-08,
+          1.0002913454493985,
+          -0.010926371908093134
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9596655474722,1186426.0,156,True,-229.2265305636156,152.9928369897187,-12.412258950385876\nFA_16_0,255.231857,255.17308411079836,1012920.0,121,True,-230.27254470680896,255.2352035673198,13.111871531754804\nFA_20_4,303.23364,303.1579602405063,927112.0,111,True,-249.5757380139384,303.2335259269112,-0.37618876570810295\nLPE_O_18_2,462.2998,462.1753456841086,24258.0,90,True,-269.2069429651461,462.2948148920062,-10.783279581414737\nPI_fragment,581.308525,581.1648522412172,47963.0,80,True,-247.15405435147755,581.3165142974702,13.74364408332629\nPS_36_2,699.495932,699.3120506821546,21190.0,73,True,-262.8768938222727,699.4951193275404,-1.1617972635868687\nPE_40_5_PE_18_0_22_5,792.56061,792.3419079466188,28604.0,69,True,-275.94363209800116,792.5493148062291,-14.251520487416123\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4390392457478,2700.0,66,True,-253.24517166916047,852.6619851479082,8.227416897823824\nPI_38_3,887.564406,887.3332587626847,49950.0,64,True,-260.4286919942267,887.5651610449006,0.8506930827091355\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 37,
+        "tile_row": 5,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 15.538038836342142,
+        "failure_reason": "",
+        "coefficients": [
+          -6.208478964536952e-08,
+          1.0003488747709028,
+          -0.02073744537415271
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95679706373934,1109931.0,156,True,-247.97543531592225,152.98796986370917,-44.224634570571915\nFA_16_0,255.231857,255.17287966141964,813195.0,121,True,-231.07357864166724,255.2371230567451,20.632443014800288\nFA_20_4,303.23364,303.15776484827495,761112.0,111,True,-250.2201000028523,303.23708561901464,11.362918093967664\nLPE_O_18_2,462.2998,462.1752611133182,31100.0,90,True,-269.38987791432936,462.30250327444423,5.84744887241886\nPI_fragment,581.308525,581.1525909451412,40986.0,80,True,-268.246633504626,581.3136345633735,8.789761639020073\nPS_36_2,699.495932,699.284925478733,19776.0,73,True,-301.6551085060422,699.4777914762107,-25.933708774426627\nPE_40_5_PE_18_0_22_5,792.56061,792.3493689229545,20092.0,69,True,-266.5298708770584,792.5660842633224,6.907059540105455\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4178360928876,4118.0,66,True,-278.1123847932058,852.6493739128947,-6.563131984495158\nPI_38_3,887.564406,887.3329623983869,38789.0,64,True,-260.76259936568823,887.5729099702851,9.58124303727325\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 38,
+        "tile_row": 5,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 14.461125973528006,
+        "failure_reason": "",
+        "coefficients": [
+          -3.255323678524747e-08,
+          1.0003186005970552,
+          -0.016190853187021653
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95961096640642,954253.0,156,True,-229.58328182986054,152.9913915001525,-21.860228233514547\nFA_16_0,255.231857,255.1730515171488,875246.0,121,True,-230.40024682811668,255.23603930230334,16.386286384887708\nFA_20_4,303.23364,303.1578993768053,741323.0,111,True,-249.7764535448317,303.23530301551176,5.484271177106013\nLPE_O_18_2,462.2998,462.17531829418846,22435.0,90,True,-269.26619006010225,462.29942320584877,-0.8150428601450431\nPI_fragment,581.308525,581.1406205299622,37688.0,80,True,-288.8388227882899,581.2985874024096,-17.09522080458905\nPS_36_2,699.495932,699.3257603771252,14406.0,73,True,-243.27750182658423,699.5164547560619,29.339350127681435\nPE_40_5_PE_18_0_22_5,792.56061,792.3277343173105,21065.0,69,True,-293.8269701411176,792.5435431769254,-21.533776545655858\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4176993570533,2425.0,66,True,-278.2727495821464,852.6494355912646,-6.490795140098653\nPI_38_3,887.564406,887.3334150825841,41155.0,64,True,-260.2525696775767,887.5742980495235,11.145162488073733\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 39,
+        "tile_row": 5,
+        "tile_col": 4,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 10.38950856100275,
+        "failure_reason": "",
+        "coefficients": [
+          -2.0835978358039694e-08,
+          1.000294652987065,
+          -0.011788157017706727
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95968189382407,714711.0,156,True,-229.11968798665202,152.9924762715862,-14.769974921071627\nFA_16_0,255.231857,255.17308838223545,691651.0,121,True,-230.25580918976874,255.23513103851366,12.827703219141078\nFA_20_4,303.23364,303.1579565972751,533425.0,111,True,-249.5877526151307,303.23357991240914,-0.19815608465794002\nLPE_O_18_2,462.2998,462.17531868310147,19710.0,90,True,-269.2653488029603,462.2952611737633,-9.817928185741764\nPI_fragment,581.308525,581.1648748561076,31684.0,80,True,-247.11515093019997,581.3172912593344,15.080218089661347\nPS_36_2,699.495932,699.3128300898288,15902.0,73,True,-261.7626519252113,699.4969069528562,1.3937934611951852\nPE_40_5_PE_18_0_22_5,792.56061,792.3416480479506,18808.0,69,True,-276.2715548649663,792.5502447869284,-13.078133004392871\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4213370464798,2374.0,66,True,-274.00644075318525,852.6455774995637,-11.015593372217142\nPI_38_3,887.564406,887.3447423302298,32190.0,64,True,-247.4903998912397,887.5780071050434,15.32407671094578\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 40,
+        "tile_row": 5,
+        "tile_col": 5,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 12.966408782630625,
+        "failure_reason": "",
+        "coefficients": [
+          -6.478959597648663e-08,
+          1.0003176988068494,
+          -0.016842144019360426
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95991719915602,235610.0,156,True,-227.58169172542603,152.99015437323655,-29.946303273070242\nFA_16_0,255.231857,255.1733254766797,246794.0,121,True,-229.32687168547085,255.2333329211386,5.782668182446387\nFA_20_4,303.23364,303.16656129571624,166354.0,111,True,-221.21128870709938,303.24007999707067,21.237739555169\nLPE_O_18_2,462.2998,462.18616761814286,9072.0,90,True,-245.79803378055558,462.3023213703154,5.453972325703224\nPI_fragment,581.308525,581.1527836565007,11783.0,80,True,-267.91512045923935,581.2986911137308,-16.91681068884105\nPS_36_2,699.495932,699.3259040006644,6602.0,73,True,-243.0721774885407,699.4995510746461,5.173832299075296\nPE_40_5_PE_18_0_22_5,792.56061,792.3706292255486,6381.0,69,True,-239.70504218149563,792.5648440585244,5.342252025859806\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4345011841297,1388.0,66,True,-258.5674436054601,852.6413974553741,-15.917979843545005\nPI_38_3,887.564406,887.3600483881877,12554.0,64,True,-230.24538887634264,887.574103635962,10.926120849965619\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 41,
+        "tile_row": 5,
+        "tile_col": 6,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 42,
+        "tile_row": 6,
+        "tile_col": 0,
+        "fit_success": true,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 90.77189340081098,
+        "failure_reason": "mean abs residual 90.77 ppm > 45.00 ppm",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95960933010446,128710.0,156,True,-229.59397698188005,152.9779267764434,-109.86798628534508\nFA_16_0,255.231857,255.16903721541095,170509.0,121,True,-246.12830595452812,255.23998157466727,31.832133977216586\nFA_20_4,303.23364,303.1574895557816,109882.0,111,True,-251.12795604867298,303.24849041867094,48.973519794704025\nLPE_O_18_2,462.2998,462.18541741699323,3272.0,90,True,-247.4207927556374,462.3216332655345,47.22750374215305\nPI_fragment,581.308525,581.1465112972297,7620.0,80,True,-278.7051897618557,581.2952045980303,-22.914513372629344\nPS_36_2,699.495932,699.3047042490721,3134.0,73,True,-273.37936102245226,699.4477062130718,-68.94362743519441\nPE_40_5_PE_18_0_22_5,792.56061,792.3781362097744,5405.0,69,True,-230.2332312800304,792.5039650783087,-71.47077583285244\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.7712450835664,347.0,66,True,136.36827046981597,852.8799482993757,263.85619892136094\nPI_38_3,887.564406,887.3328354796797,6574.0,64,True,-260.9055959824587,887.4296197758988,-151.86078124584301\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 43,
+        "tile_row": 6,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 14.265959473591572,
+        "failure_reason": "",
+        "coefficients": [
+          -8.292483089155509e-08,
+          1.0003401863265327,
+          -0.019737040340794487
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9597680354218,981411.0,156,True,-228.55665163660393,152.9901256500617,-30.134042901157393\nFA_16_0,255.231857,255.17309696251016,932426.0,121,True,-230.2221916201979,255.2347668104831,11.400655534617613\nFA_20_4,303.23364,303.15803117093657,758718.0,111,True,-249.34182455288433,303.2338031582553,0.5380611969851098\nLPE_O_18_2,462.2998,462.1917125031584,20284.0,90,True,-233.80390136794276,462.31149226349567,25.29151752966556\nPI_fragment,581.308525,581.152816343401,48932.0,80,True,-267.8588905934547,581.3027726288519,-9.89555614740957\nPS_36_2,699.495932,699.3125889657272,18537.0,73,True,-262.10736315313716,699.4901951046243,-8.201470678139598\nPE_40_5_PE_18_0_22_5,792.56061,792.3489095463302,28589.0,69,True,-267.10948159507666,792.5466571693488,-17.6047490565952\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4634763241136,1954.0,66,True,-224.58518700298774,852.6734747270124,21.70247950625063\nPI_38_3,887.564406,887.3443564651343,48628.0,64,True,-247.92514591404867,887.5611884878651,-3.625102711503478\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 44,
+        "tile_row": 6,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 9.659571517155607,
+        "failure_reason": "",
+        "coefficients": [
+          5.5688937861580056e-08,
+          1.0002253530943213,
+          0.00018102962203271286
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95679469546178,1108623.0,156,True,-247.99091478681976,152.99274789826265,-12.994576083580554\nFA_16_0,255.231857,255.17292073012368,908723.0,121,True,-230.9126712043337,255.23423185305248,9.304689000820808\nFA_20_4,303.23364,303.15780342773905,858799.0,111,True,-250.0928731420615,303.2314200789846,-7.320826987906308\nLPE_O_18_2,462.2998,462.18595740799617,23729.0,90,True,-246.25273903175903,462.30218951358256,5.168753225843709\nPI_fragment,581.308525,581.1648333139669,41931.0,80,True,-247.18661408430899,581.3147907186072,10.778645655007635\nPS_36_2,699.495932,699.3120022794585,20831.0,73,True,-262.94609035914704,699.4970093991949,1.5402508371633938\nPE_40_5_PE_18_0_22_5,792.56061,792.3274836683094,29041.0,69,True,-294.14322229645194,792.5411787077358,-24.51710571920032\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4212200828773,2672.0,66,True,-274.1436165237345,852.6539616759777,-1.1825698058578575\nPI_38_3,887.564406,887.3329546685086,45115.0,64,True,-260.77130845575067,887.5769461546006,14.128726339019886\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 45,
+        "tile_row": 6,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 10.557678913325132,
+        "failure_reason": "",
+        "coefficients": [
+          8.411474240597337e-09,
+          1.0002667930906064,
+          -0.003334945944584621
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9567693643689,969996.0,156,True,-248.1564831817434,152.99443902059664,-1.941108636212958\nFA_16_0,255.231857,255.16526568153446,712951.0,121,True,-260.90519909325695,255.230554730744,-5.1022990284532135\nFA_20_4,303.23364,303.1578274078651,678349.0,111,True,-250.01379179060237,303.23614592938634,8.264021717244779\nLPE_O_18_2,462.2998,462.17549054995163,25378.0,90,True,-268.8935838786262,462.29725757444834,-5.499516875557458\nPI_fragment,581.308525,581.1525804814611,36105.0,80,True,-268.2646337225916,581.3071339057709,-2.393039443418495\nPS_36_2,699.495932,699.3255904302208,17487.0,73,True,-243.5204580706914,699.5129444042007,24.320948017484213\nPE_40_5_PE_18_0_22_5,792.56061,792.3276370862376,19712.0,69,True,-293.949649809634,792.540970260608,-24.78011037162841\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4176646393399,4235.0,66,True,-278.3134667708746,852.6478607473472,-8.337783632302436\nPI_38_3,887.564406,887.3371460342264,35562.0,64,True,-256.04898555784973,887.5771694268931,14.380282497624233\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 46,
+        "tile_row": 6,
+        "tile_col": 4,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 9.260012824322779,
+        "failure_reason": "",
+        "coefficients": [
+          -1.0145165583061737e-08,
+          1.000291200774473,
+          -0.012266989055380867
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95978970878969,798793.0,156,True,-228.4149907634964,152.99182736559288,-19.011336488767117\nFA_16_0,255.231857,255.17323237368916,644457.0,121,True,-229.6916497803437,255.23461144151904,10.791918968974173\nFA_20_4,303.23364,303.1580060791156,551993.0,111,True,-249.4245720375869,303.2330865470412,-1.8251700530244823\nLPE_O_18_2,462.2998,462.18614636918716,26736.0,90,True,-245.84399736458548,462.3063011738701,14.062679391394845\nPI_fragment,581.308525,581.1527226719362,29726.0,80,True,-268.0200295769413,581.3062613929349,-3.8939856682374567\nPS_36_2,699.495932,699.2988820744843,14358.0,73,True,-281.7027469371826,699.4852902834948,-15.21340728145005\nPE_40_5_PE_18_0_22_5,792.56061,792.3568396483325,17525.0,69,True,-257.1038089660528,792.5689381518131,10.507905273123377\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4222929987634,3443.0,66,True,-272.8852929065227,852.6508803231887,-4.796402947495097\nPI_38_3,887.564406,887.3291432025318,30729.0,64,True,-265.0656063692812,887.5672793205471,3.2373093464384266\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 47,
+        "tile_row": 6,
+        "tile_col": 5,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 15.475966237375353,
+        "failure_reason": "",
+        "coefficients": [
+          -4.244888151701166e-08,
+          1.000323400432451,
+          -0.018358303298590836
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95981610280865,566926.0,156,True,-228.24247490020707,152.9899319062124,-31.400386138670495\nFA_16_0,255.231857,255.17326076616325,473290.0,121,True,-229.5804078906109,255.23466161504132,10.988499140714444\nFA_20_4,303.23364,303.15805480109935,361284.0,111,True,-249.2638973058068,303.2338366875956,0.6486338245081863\nLPE_O_18_2,462.2998,462.19192351178566,23518.0,90,True,-233.3474689245909,462.3139702880249,30.651728650758546\nPI_fragment,581.308525,581.1406121724813,19634.0,80,True,-288.8531998025699,581.2958589709613,-21.788823824266142\nPS_36_2,699.495932,699.3120600534396,14810.0,73,True,-262.8634966249238,699.4991004839416,4.52966743132114\nPE_40_5_PE_18_0_22_5,792.56061,792.3416076581852,10824.0,69,True,-276.3225159710594,792.5528433439158,-9.799447494856263\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4180804883067,3965.0,66,True,-277.8257560538637,852.644550499587,-12.220066474292732\nPI_38_3,887.564406,887.344536315414,24815.0,64,True,-247.7225124167511,887.5797222047203,17.256443156990247\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 48,
+        "tile_row": 6,
+        "tile_col": 6,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 30.436045474660546,
+        "failure_reason": "",
+        "coefficients": [
+          -4.7123242405331936e-08,
+          1.0003032315465736,
+          -0.017092446707077942
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9599046102278,189208.0,156,True,-227.66397513306399,152.9880919020662,-43.42697080628286\nFA_16_0,255.231857,255.1734032363315,178615.0,121,True,-229.0222088870969,255.2306190577033,-4.850265602553913\nFA_20_4,303.23364,303.1667443893268,142362.0,111,True,-220.60748495172595,303.23725056265147,11.906867099205025\nLPE_O_18_2,462.2998,462.2084289709068,7999.0,90,True,-197.64453519811545,462.3214254501685,46.777978637394206\nPI_fragment,581.308525,581.1523188408141,9766.0,80,True,-268.7147228503129,581.2955348000667,-22.34648104183522\nPS_36_2,699.495932,699.3393155709343,6697.0,73,True,-223.89898482741577,699.511238044149,21.881534185861106\nPE_40_5_PE_18_0_22_5,792.56061,792.3272144303442,5398.0,69,True,-294.48292876407334,792.5207974473542,-50.232817709422704\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4261610216388,1342.0,66,True,-268.3488473201038,852.633309899485,-25.40312468368985\nPI_38_3,887.564406,887.3913240663426,9794.0,64,True,-195.00774533919954,887.6062088363539,47.09836950570001\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 49,
+        "tile_row": 7,
+        "tile_col": 0,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 50,
+        "tile_row": 7,
+        "tile_col": 1,
+        "fit_success": true,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 79.84793985536595,
+        "failure_reason": "mean abs residual 79.85 ppm > 45.00 ppm",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95963766516198,45151.0,156,True,-229.40877415554462,152.97712723677557,-115.09391554763152\nFA_16_0,255.231857,255.1730879431683,55393.0,121,True,-230.25752945759032,255.24120740397527,36.63494081491507\nFA_20_4,303.23364,303.15778743855276,35718.0,111,True,-250.14560207508814,303.24520144991226,38.12720090118787\nLPE_O_18_2,462.2998,462.18148658051336,1579.0,90,True,-255.9235792155648,462.3124087686207,27.274008383045302\nPI_fragment,581.308525,581.1773403461821,2776.0,80,True,-225.67130564267563,581.3202825769401,20.226052835046264\nPS_36_2,699.495932,699.3383468977163,1144.0,73,True,-225.28380091243602,699.4758294890045,-28.738567411097982\nPE_40_5_PE_18_0_22_5,792.56061,792.3200821137764,1561.0,69,True,-303.48200905873597,792.4410814662552,-150.81311414751713\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.7365052840289,188.0,66,True,95.62517887963484,852.8410413241658,218.2258131512556\nPI_38_3,887.564406,887.3972508829365,2519.0,64,True,-188.33012673046537,887.4902962843506,-83.49784550659689\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 51,
+        "tile_row": 7,
+        "tile_col": 2,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 43.96321759163416,
+        "failure_reason": "",
+        "coefficients": [
+          -3.18922042701017e-07,
+          1.0005396263088906,
+          -0.0505054782183719
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95958270176413,505652.0,156,True,-229.7680244100352,152.98415653627998,-69.14920079345924\nFA_16_0,255.231857,255.17297364996475,493098.0,121,True,-230.7053309385475,255.23940017207102,29.554194996215436\nFA_20_4,303.23364,303.1577756850091,396279.0,111,True,-250.18436276032847,303.24155170374263,26.091114899553805\nLPE_O_18_2,462.2998,462.17514417348656,11121.0,90,True,-269.64283028771973,462.30591694393416,13.231552196561053\nPI_fragment,581.308525,581.1525058183682,26961.0,80,True,-268.39307342308643,581.3078933539567,-1.0865934630886076\nPS_36_2,699.495932,699.2987194621566,9307.0,73,True,-281.93521766397333,699.4696151283161,-37.62262292025606\nPE_40_5_PE_18_0_22_5,792.56061,792.3563470515998,17760.0,69,True,-257.72533459648196,792.5331895308399,-34.59731510012826\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.578640360359,928.0,66,True,-89.51996097673236,852.7563873954631,118.94306493404368\nPI_38_3,887.564406,887.3291487932042,27727.0,64,True,-265.05930747714393,887.5063652353977,-65.39329902140132\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 52,
+        "tile_row": 7,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 18.48527196589654,
+        "failure_reason": "",
+        "coefficients": [
+          -1.2174607514068923e-07,
+          1.000398386886593,
+          -0.027911187271583256
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9568758758025,895434.0,156,True,-247.46030606891867,152.98705235455373,-50.22163276430409\nFA_16_0,255.231857,255.1729855863117,874418.0,121,True,-230.65856425704715,255.2388046873701,27.221082241762883\nFA_20_4,303.23364,303.1578034298987,676692.0,111,True,-250.0928660199889,303.23947730519706,19.250190041830944\nLPE_O_18_2,462.2998,462.16471746167736,20659.0,90,True,-292.19683487349397,462.29492213510014,-10.551302206636786\nPI_fragment,581.308525,581.1523889566239,39025.0,80,True,-268.59410564490946,581.3148829722231,10.937345574107571\nPS_36_2,699.495932,699.2983698015305,18274.0,73,True,-282.4350928027138,699.489513866863,-9.175368781134924\nPE_40_5_PE_18_0_22_5,792.56061,792.3347230888113,30535.0,69,True,-285.0090054168793,792.5460361713571,-18.388282812765283\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4477749629112,2719.0,66,True,-242.99985853458276,852.6709989100565,18.79882322908895\nPI_38_3,887.564406,887.3330549151043,44686.0,64,True,-260.6583627415811,887.562787597274,-1.8234200414374397\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 53,
+        "tile_row": 7,
+        "tile_col": 4,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 11.766031722004747,
+        "failure_reason": "",
+        "coefficients": [
+          -7.366051865440369e-09,
+          1.0002702957073981,
+          -0.005938890996749877
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95682480785763,917705.0,156,True,-247.79409497043122,152.99205715541922,-17.509390524201148\nFA_16_0,255.231857,255.17295689587496,849191.0,121,True,-230.77097356632046,255.2355105322835,14.314562165028068\nFA_20_4,303.23364,303.15783272707665,683495.0,111,True,-249.99625016316688,303.2331591223529,-1.585832122973426\nLPE_O_18_2,462.2998,462.18605189307027,20668.0,90,True,-246.0483585105027,462.3034664017779,7.930788154953953\nPI_fragment,581.308525,581.1521754398324,41214.0,80,True,-268.9614093783589,581.3008316926746,-13.234464995054891\nPS_36_2,699.495932,699.3258318823384,19833.0,73,True,-243.17527791084365,699.5053153453504,13.41443877093107\nPE_40_5_PE_18_0_22_5,792.56061,792.3415100134329,26668.0,69,True,-276.44571759266483,792.5451131866902,-19.55284316971501\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4485558072515,2276.0,66,True,-242.084078567589,852.6676774235104,14.90335945662979\nPI_38_3,887.564406,887.3332414014241,40627.0,64,True,-260.44825255858836,887.5613451399411,-3.4486061385553493\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 54,
+        "tile_row": 7,
+        "tile_col": 5,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 21.057704465299526,
+        "failure_reason": "",
+        "coefficients": [
+          4.214784129843366e-09,
+          1.000272880725002,
+          -0.012861254756598495
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95983627921262,827015.0,156,True,-228.11059844153817,152.98881342756448,-38.71095562077872\nFA_16_0,255.231857,255.1732812188607,737409.0,121,True,-229.50027409508144,255.23032627302373,-5.997397794491977\nFA_20_4,303.23364,303.16664202778867,636466.0,111,True,-220.94505151641889,303.23689648696853,10.73920086357491\nLPE_O_18_2,462.2998,462.2027730334244,19381.0,90,True,-209.8788850343081,462.3169384167198,37.07208335321439\nPI_fragment,581.308525,581.1650167310352,36901.0,80,True,-246.8710896074769,581.312167762433,6.266487203067004\nPS_36_2,699.495932,699.2985993050562,14760.0,73,True,-282.10699436038857,699.4786242666146,-24.74315088004082\nPE_40_5_PE_18_0_22_5,792.56061,792.3419789290947,21611.0,69,True,-275.8540711546379,792.5479785939691,-15.937463799634722\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4169371511874,2951.0,66,True,-279.1666702096657,852.6397465720759,-17.854147879046376\nPI_38_3,887.564406,887.3603831540544,36010.0,64,True,-229.86821527134057,887.592984200628,32.19845279384682\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 55,
+        "tile_row": 7,
+        "tile_col": 6,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 12.578760551574996,
+        "failure_reason": "",
+        "coefficients": [
+          5.0907087788121315e-08,
+          1.0002285966010895,
+          -0.0035487277489129696
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.9597738129692,638288.0,156,True,-228.51888858973487,152.99238222709153,-15.384665969577705\nFA_16_0,255.231857,255.17322461710927,568283.0,121,True,-229.72204010850083,255.23132235347188,-2.0947484157877128\nFA_20_4,303.23364,303.1665688762221,528241.0,111,True,-221.1862898123947,303.23700186451646,11.086713586519979\nLPE_O_18_2,462.2998,462.1863094878598,20233.0,90,True,-245.49115560991203,462.29928955739626,-1.1041376261477018\nPI_fragment,581.308525,581.1649930708845,27489.0,80,True,-246.9117911448332,581.3114906940765,5.101755692410149\nPS_36_2,699.495932,699.3253691279205,13553.0,73,True,-243.8368320340507,699.506580217905,15.222701688258379\nPE_40_5_PE_18_0_22_5,792.56061,792.3272779182997,16046.0,69,True,-294.40282390550374,792.5368110928533,-30.027870230227553\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4172456192816,3057.0,66,True,-278.80489656726985,852.6455464383616,-11.052022177756093\nPI_38_3,887.564406,887.3446730540825,29862.0,64,True,-247.56845185777453,887.5840515543272,22.13422957748969\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 56,
+        "tile_row": 8,
+        "tile_col": 0,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 57,
+        "tile_row": 8,
+        "tile_col": 1,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 58,
+        "tile_row": 8,
+        "tile_col": 2,
+        "fit_success": false,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 0,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": null,
+        "failure_reason": "insufficient calibration peaks (0/4)",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,,0.0,156,False,,,\nFA_16_0,255.231857,,0.0,121,False,,,\nFA_20_4,303.23364,,0.0,111,False,,,\nLPE_O_18_2,462.2998,,0.0,90,False,,,\nPI_fragment,581.308525,,0.0,80,False,,,\nPS_36_2,699.495932,,0.0,73,False,,,\nPE_40_5_PE_18_0_22_5,792.56061,,0.0,69,False,,,\nSL_53_8_O_SL_19_3_O_34_5,852.65497,,0.0,66,False,,,\nPI_38_3,887.564406,,0.0,64,False,,,\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 59,
+        "tile_row": 8,
+        "tile_col": 3,
+        "fit_success": true,
+        "quality_pass": false,
+        "use_for_analysis": true,
+        "fallback_used": true,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 96.00662730547674,
+        "failure_reason": "mean abs residual 96.01 ppm > 45.00 ppm",
+        "coefficients": [
+          -2.0402611816368537e-08,
+          1.000308392427494,
+          -0.014900744888717876
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95982138651976,44703.0,156,True,-228.20793965241654,152.9729630469008,-142.31177927063902\nFA_16_0,255.231857,255.17294592661426,54775.0,121,True,-230.8139511978305,255.24421443862457,48.41652123612606\nFA_20_4,303.23364,303.15808312876743,37236.0,111,True,-249.1704786861703,303.25168519709854,59.50921902516711\nLPE_O_18_2,462.2998,462.16989984411725,1430.0,90,True,-280.9868312353829,462.31488228869114,32.62447591613238\nPI_fragment,581.308525,581.1467467701464,2466.0,80,True,-278.3001158527079,581.3074359467957,-1.8734512869602398\nPS_36_2,699.495932,699.2991421078675,1163.0,73,True,-281.33100298362933,699.4561681526642,-56.846431146719475\nPE_40_5_PE_18_0_22_5,792.56061,792.3260758377398,1985.0,69,True,-295.9195288044417,792.4667121902412,-118.47397987492789\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.7614559397978,222.0,66,True,124.88749088945272,852.8850687050694,269.86144825895377\nPI_38_3,887.564406,887.333729746662,2676.0,64,True,-259.8980443318352,887.4453460339148,-134.14233973366476\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 60,
+        "tile_row": 8,
+        "tile_col": 4,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 14.847637487055701,
+        "failure_reason": "",
+        "coefficients": [
+          -1.1891908073283518e-07,
+          1.0003854574239712,
+          -0.025835967433970045
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95680433365212,327325.0,156,True,-247.9279179113278,152.9871444968701,-49.61937468163524\nFA_16_0,255.231857,255.17311276795297,369968.0,121,True,-230.16026579714477,255.23789195537512,23.644992619898513\nFA_20_4,303.23364,303.15779069893006,274864.0,111,True,-250.1348500447464,303.237879936531,13.982408188641326\nLPE_O_18_2,462.2998,462.18039117539087,7802.0,90,True,-258.2930483836209,462.3073036812073,16.23120150021873\nPI_fragment,581.308525,581.1402922581458,14272.0,80,True,-289.40353464494603,581.2982992984383,-17.590833648438622\nPS_36_2,699.495932,699.3055443835331,8723.0,73,True,-272.1783040576399,699.4911061405289,-6.899052947046261\nPE_40_5_PE_18_0_22_5,792.56061,792.3563737559699,11097.0,69,True,-257.6916408072373,792.5612966325223,0.8663470195352274\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4405347493673,1038.0,66,True,-251.4912340600469,852.6568651859569,2.222687984647263\nPI_38_3,887.564406,887.344125717046,18239.0,64,True,-248.18512489326022,887.566688672571,2.571838793440116\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 61,
+        "tile_row": 8,
+        "tile_col": 5,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 13.418863594784607,
+        "failure_reason": "",
+        "coefficients": [
+          1.4682820344140299e-09,
+          1.0002829813297212,
+          -0.011628783251730166
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95975830012324,603804.0,156,True,-228.62028322822917,152.99144862560524,-21.486846415060988\nFA_16_0,255.231857,255.17313972348023,663398.0,121,True,-230.05465387401813,255.23381577935106,7.674509656021962\nFA_20_4,303.23364,303.15805301342056,504374.0,111,True,-249.2697926899663,303.23234724130043,-4.263243021284883\nLPE_O_18_2,462.2998,462.18616592535204,14949.0,90,True,-245.80169545381983,462.30564084652394,12.63432630500408\nPI_fragment,581.308525,581.1647671864611,30491.0,80,True,-247.3003703824377,581.3180930977231,16.459586108949757\nPS_36_2,699.495932,699.2989488563258,13601.0,73,True,-281.60727555780545,699.4859266373353,-14.303675271041145\nPE_40_5_PE_18_0_22_5,792.56061,792.3275336491704,23143.0,69,True,-294.0801597869037,792.5410405273492,-24.69145249446713\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4317301817872,1366.0,66,True,-261.81729546811454,852.6623905752829,8.70290509515476\nPI_38_3,887.564406,887.3331466723207,31386.0,64,True,-260.5549818310921,887.5737726695288,10.55322798607676\n"
+      },
+      {
+        "method": "tile_cal",
+        "tile_id": 62,
+        "tile_row": 8,
+        "tile_col": 6,
+        "fit_success": true,
+        "quality_pass": true,
+        "use_for_analysis": true,
+        "fallback_used": false,
+        "matched_peaks": 9,
+        "required_peaks": 4,
+        "mean_abs_residual_ppm": 13.199404870694087,
+        "failure_reason": "",
+        "coefficients": [
+          -3.3550567078861876e-08,
+          1.0003131929891034,
+          -0.017615968617824013
+        ],
+        "matches_csv": "peak,expected_mz,observed_mz,max_intensity,search_bins,matched,raw_residual_ppm,adjusted_mz,adjusted_residual_ppm\nGlycerophospholipids,152.994736,152.95983171778465,729617.0,156,True,-228.14041272201993,152.989336723183,-35.29060514213979\nFA_16_0,255.231857,255.17325832840652,777858.0,121,True,-229.5899590366273,255.23337624408563,5.952407757791821\nFA_20_4,303.23364,303.16655090963036,652590.0,111,True,-221.24553980759,303.2408009480908,23.615282561702887\nLPE_O_18_2,462.2998,462.1860454955193,18060.0,90,True,-246.06219704336834,462.30601602006624,13.445863628392962\nPI_fragment,581.308525,581.1410760612763,33732.0,80,True,-288.05519190302124,581.2941385397621,-24.748407462139564\nPS_36_2,699.495932,699.3122208874631,16274.0,73,True,-262.6335681633556,699.497217115413,1.8372021254264905\nPE_40_5_PE_18_0_22_5,792.56061,792.356196134184,23338.0,69,True,-257.9157521038503,792.5656765741808,6.392664632643536\nSL_53_8_O_SL_19_3_O_34_5,852.65497,852.4260076461593,2342.0,66,True,-268.5287272069226,852.650986675004,-4.671672758861161\nPI_38_3,887.564406,887.3330530103473,41563.0,64,True,-260.66050879094354,887.566927160216,2.8405377671485623\n"
+      }
+    ]
+  }
+}

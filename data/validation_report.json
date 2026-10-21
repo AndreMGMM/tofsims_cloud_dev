@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "file": "tofsims_demo_256.npz",
+      "shape": [
+        256,
+        199
+      ],
+      "source_mass_channels": 184011,
+      "retained_spatial_mass_channels": 5454,
+      "full_counts": 45733207325,
+      "retained_counts": 8842385018,
+      "passed": true
+    }
+  ],
+  "compared_with_original": true
+}
