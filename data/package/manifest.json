@@ -1,0 +1,27 @@
+{
+  "output": "data/tofsims_demo_256.npz",
+  "bytes": 72178371,
+  "sha256": "4ad7f7bf0bc5994d1f11ad82fef4603aaf10d344031f2c0c389b3f7746fec2a3",
+  "parts": [
+    {
+      "file": "demo.part000",
+      "bytes": 20971520,
+      "sha256": "bb3e15e19de6c273c0c4c387bbe66a48901adc199a5c2a464726a6fe9c9a70e9"
+    },
+    {
+      "file": "demo.part001",
+      "bytes": 20971520,
+      "sha256": "3eb96f49431bc7db5b20c1d337cf8434c961cbc403c6d5053ef28ec2a5ad88b1"
+    },
+    {
+      "file": "demo.part002",
+      "bytes": 20971520,
+      "sha256": "099f4469438ae08ad84ff54e85ba22efe6bb70d6fb8ac5c3b03c03617c09cf66"
+    },
+    {
+      "file": "demo.part003",
+      "bytes": 9263811,
+      "sha256": "5ae74edbf8e3f3d61f47a4041b633cc6c8006b10930446435fc2c6864bc26d44"
+    }
+  ]
+}
